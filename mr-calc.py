@@ -1,4 +1,4 @@
-chem_table = {    'H':[0],}                    
+chem_table = {}                    
 formula= input("Test input: (\n")
 fl = len(formula) +1
 fn=0
@@ -17,6 +17,6 @@ while fn != fl:
             chem_table[element] =+ int(sub)
         else:
             chem_table[element] =+ 1
-print("TESTING")
-print(formula)
+    break
+
 print(chem_table)
